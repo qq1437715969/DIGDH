@@ -116,8 +116,8 @@ def tensor2Img(tensor):
     # return Image.fromarray(ndarr)
     return ndarr
 
-Hnet_path = 'models/netH_1_epoch_188,sumloss=0.00004583,Hloss=0.00000896.pth'
-Rnet_path = 'models/netR_1_epoch_188,sumloss=0.00004583,Rloss=0.00004916.pth'
+Hnet_path = 'models/netH_1_epoch_188.pth'
+Rnet_path = 'models/netR_1_epoch_188.pth'
 
 OLD_DATA_DIR = '/home/duanxt/Desktop/LY_Cycle_Gan/StegPro/image_net/'
 
